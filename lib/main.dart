@@ -3,6 +3,7 @@ import 'package:app/create_challenge_page.dart';
 import 'package:app/create_user_page.dart';
 import 'package:app/invite_user_page.dart';
 import 'package:app/main_page.dart';
+import 'package:app/share_challenge_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => const MainPage(),
         '/create-challenge': (context) => const CreateChallengePage(),
         '/challenge': (context) => const ChallengePage(),
+        '/share-challenge': (context) => const ShareChallengePage(),
         '/create-user': (context) => const CreateUserPage(),
         '/invite-user': (context) => const InviteUserPage(),
       },
