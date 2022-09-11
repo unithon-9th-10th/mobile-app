@@ -1,3 +1,4 @@
+import 'package:app/create_challenge_page.dart';
 import 'package:app/main_page.dart';
 import 'package:flutter/material.dart';
 
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const MainPage(),
+        '/create-challenge': (context) => const CreateChallengePage(),
       },
     );
   }
