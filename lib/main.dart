@@ -1,5 +1,6 @@
 import 'package:app/challenge_page.dart';
 import 'package:app/create_challenge_page.dart';
+import 'package:app/create_user_page.dart';
 import 'package:app/main_page.dart';
 import 'package:flutter/material.dart';
 
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => const MainPage(),
         '/create-challenge': (context) => const CreateChallengePage(),
         '/challenge': (context) => const ChallengePage(),
+        '/create-user': (context) => const CreateUserPage(),
       },
     );
   }
