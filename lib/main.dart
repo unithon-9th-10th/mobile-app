@@ -5,6 +5,7 @@ import 'package:app/create_user_page.dart';
 import 'package:app/invite_user_page.dart';
 import 'package:app/main_page.dart';
 import 'package:app/ranking_page.dart';
+import 'package:app/result_page.dart';
 import 'package:app/share_challenge_page.dart';
 import 'package:flutter/material.dart';
 
@@ -32,6 +33,7 @@ class MyApp extends StatelessWidget {
         '/invite-user': (context) => const InviteUserPage(),
         '/create-spend': (context) => const CreateSpendPage(),
         '/ranking': (context) => const RankingPage(),
+        '/result': (context) => const ResultPage(),
       },
     );
   }
