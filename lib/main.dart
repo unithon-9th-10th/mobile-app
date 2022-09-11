@@ -1,5 +1,6 @@
 import 'package:app/challenge_page.dart';
 import 'package:app/create_challenge_page.dart';
+import 'package:app/create_spend_page.dart';
 import 'package:app/create_user_page.dart';
 import 'package:app/invite_user_page.dart';
 import 'package:app/main_page.dart';
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
         '/share-challenge': (context) => const ShareChallengePage(),
         '/create-user': (context) => const CreateUserPage(),
         '/invite-user': (context) => const InviteUserPage(),
+        '/create-spend': (context) => const CreateSpendPage(),
       },
     );
   }
