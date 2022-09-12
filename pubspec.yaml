@@ -70,6 +70,13 @@ flutter:
     - images/startmain.svg
     - images/peopleImg.svg
     - images/fightPaper.svg
+    - images/expend/car.svg
+    - images/expend/enter.svg
+    - images/expend/etc.svg
+    - images/expend/longBox.svg
+    - images/expend/rice.svg
+    - images/expend/shopping.svg
+    - images/expend/snack.svg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
