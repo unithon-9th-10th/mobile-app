@@ -25,7 +25,9 @@ class CreateUserPage extends StatelessWidget {
             ),
             const Spacer(),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.of(context).pushNamed('/invite-user');
+              },
               style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all(Colors.black),
                 fixedSize: MaterialStateProperty.all(
