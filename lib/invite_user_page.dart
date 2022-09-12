@@ -49,7 +49,10 @@ class InviteUserPage extends StatelessWidget {
             /// 챌린지 화면으로
             ElevatedButton(
               onPressed: () {
-                Navigator.of(context).pushNamed('/challenge');
+                Navigator.of(context).pushNamedAndRemoveUntil(
+                  '/challenge',
+                  (router) => false,
+                );
               },
               style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all(Colors.black),
