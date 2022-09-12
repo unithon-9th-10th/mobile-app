@@ -7,5 +7,7 @@ class BeggarAppBar extends AppBar {
     super.elevation = 0.0,
     super.backgroundColor = Colors.transparent,
     super.foregroundColor = Colors.black,
+    super.actions,
+    super.bottom,
   });
 }
